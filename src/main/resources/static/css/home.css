@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Playwrite AT", cursive;
+    background-image: linear-gradient(to left, #3FA2F6, #FAFFAF);
+}
+
+
+main {
+    width: 80%;
+    margin: 1rem auto;
+}
+
+header {
+    text-align: center;
+}
+
+section {
+    margin: 1rem;
+    display: grid;
+    gap: 1rem;
+
+}
+
+.answer {
+    margin-top: 1rem;
+}
+
+.faq {
+    background-color: #FFC7ED;
+    color: #55AD9B;
+
+    padding: 1rem;
+    border-radius: 1rem;
+
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.question-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question-area button {
+    border: none;
+    outline: none;
+    color: #55AD9B;
+    background-color: transparent;
+    cursor: pointer;
+
+    font-size: 1.5rem;
+}
+
+.hide {
+    display: none;
+}
